@@ -1,8 +1,8 @@
 helm:
   parameters:
   - name: image.name
-    value: shambuco/py-app
+    value: shambuco/ks-guestbook-demo
     forcestring: true
   - name: image.tag
-    value: v2
+    value: 0.1
     forcestring: true
