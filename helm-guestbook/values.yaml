@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: shambuco/py-app
-  tag: v1
+  repository: shambuco/ks-guestbook-demo
+  tag: 0.1
   pullPolicy: IfNotPresent
 
 containerPort: 80
