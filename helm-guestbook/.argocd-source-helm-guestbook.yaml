@@ -4,5 +4,5 @@ helm:
     value: shambuco/py-app
     forcestring: true
   - name: image.tag
-    value: "v1"
+    value: v2
     forcestring: true
