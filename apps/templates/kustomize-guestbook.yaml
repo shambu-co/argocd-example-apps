@@ -5,10 +5,10 @@ metadata:
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
-  annotations:
-    argocd-image-updater.argoproj.io/image-list: shambuco/ks-guestbook-demo
-    argocd-image-updater.argoproj.io/write-back-method: git
-    argocd-image-updater.argoproj.io/git-branch: master
+  # annotations:
+  #   argocd-image-updater.argoproj.io/image-list: shambuco/ks-guestbook-demo
+  #   argocd-image-updater.argoproj.io/write-back-method: git
+  #   argocd-image-updater.argoproj.io/git-branch: master
 spec:
   destination:
     namespace: kustomize-guestbook
