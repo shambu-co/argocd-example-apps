@@ -1,6 +1,6 @@
 spec:
   destination:
-    server: https://ECDC6C8E74771E076CCA012F39D92BCC.gr7.us-east-1.eks.amazonaws.com
+    server: https://95CE571AA495E15EDAF697652F21E026.gr7.us-east-1.eks.amazonaws.com
   source:
     repoURL: git@github.com:shambu-co/argocd-example-apps.git
     targetRevision: HEAD
