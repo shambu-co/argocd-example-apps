@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: 921393379680.dkr.ecr.us-east-1.amazonaws.com/httpd
-  tag: latest
+  tag: 1
   pullPolicy: IfNotPresent
 
 containerPort: 80
