@@ -4,5 +4,5 @@ helm:
     value: 921393379680.dkr.ecr.us-east-1.amazonaws.com/httpd
     forcestring: true
   - name: image.tag
-    value: "2"
+    value: "3"
     forcestring: true
